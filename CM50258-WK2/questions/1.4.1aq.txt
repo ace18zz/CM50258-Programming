@@ -1,0 +1,21 @@
+QS -l1
+#rv@1 = #rst
+#rv@1.find("i")
+
+QS -l2
+#rv@1 = #rst
+#rv@1.find("o")
+
+QS -l3
+#rv@1 = #rst
+#rv@1.replace("i", "o")
+
+QS -l4
+dog = "fish"
+dog.replace("i", "o")
+dog
+
+QS -l5
+dog = "fish"
+dog = dog.replace("i", "o")
+dog

@@ -1,0 +1,11 @@
+QE -l1 -r3
+max(#rsn, #rsn)
+
+QE -l1
+min(#rsn, #rsn)
+
+QE -l1
+abs(-#rsn)
+
+QE -l2 -r1
+max(#rsn@1, #rsn@2, #rsn@3, #rsn@4)
